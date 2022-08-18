@@ -3,7 +3,7 @@ name = "my-project"
 version = "0.1.0"
 authors = ["runner"]
 edition = "2021"
-default-run = "binary_search"
+default-run = "closure"
 
 
 
