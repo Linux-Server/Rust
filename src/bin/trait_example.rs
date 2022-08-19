@@ -8,13 +8,18 @@ fn main(){
     side_b : 10,
     side_c: 10
   };
-  triangle.calculate_perimeter();
 
   let square = Square{
     side : 10
   };
-  square.calculate_perimeter();
+
+  calcs(triangle);
+  calcs(square);
   
+}
+
+fn calcs(data: impl Perimeter){
+  data.calculate_perimeter();
 }
 
 
